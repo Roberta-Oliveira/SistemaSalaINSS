@@ -1,0 +1,2 @@
+# SistemaSalaINSS
+Created with CodeSandbox
