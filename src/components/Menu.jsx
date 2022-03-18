@@ -15,7 +15,7 @@ const Menu = () => {
               height="30"
               className="d-inline-block align-top"
             />{" "}
-            SISTEMA SALA
+            SALA
           </Navbar.Brand>
         </Container>
       </Navbar>
