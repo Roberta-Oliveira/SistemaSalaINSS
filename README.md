@@ -1,2 +1,2 @@
 # SistemaSalaINSS
-Created with CodeSandbox
+Sistema de monitoramento interno do INSS.
