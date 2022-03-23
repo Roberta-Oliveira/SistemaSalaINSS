@@ -3,17 +3,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { ListGroup, Container, Card, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const Balcao = () => {
+const ServicoSocial = () => {
   return (
     <>
       <br />
 
       <Container>
         <Row>
-          <Col md={{ span: 4, offset: 0 }}>
+          <Col md={{ span: 4, offset: 4 }}>
             <Card style={{ width: "18rem" }}>
               <ListGroup action variant="Primary">
-                <Link to="/balcao/detalhes">
+                <Link className="btn " to="/servicosocial/detalhes">
                   <ListGroup.Item>Balcão</ListGroup.Item>
                 </Link>
               </ListGroup>
@@ -42,4 +42,4 @@ const Balcao = () => {
   );
 };
 
-export default Balcao;
+export default ServicoSocial;
