@@ -105,9 +105,13 @@ const Balcao = () => {
                   <Table striped bordered hover size="sm">
                     <tbody>
                       <tr>
-                        <Link to="/pmf/detalhes">
-                          <td>Tempo de espera 30min</td>
-                        </Link>
+                        <td>
+                          <Link to="/pmf/detalhes">
+                            <RiFileEditLine title="Editar" />
+                          </Link>
+                        </td>
+                        <td>Tempo de espera 30min</td>
+
                         <td>23-03-2022</td>
                         <td className="disaster-bg">Desastre</td>
                       </tr>
