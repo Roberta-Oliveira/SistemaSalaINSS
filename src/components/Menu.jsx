@@ -7,7 +7,7 @@ const Menu = () => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src="https://static.vecteezy.com/system/resources/previews/000/616/253/original/home-logo-and-symbols-vector.jpg"

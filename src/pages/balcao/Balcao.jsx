@@ -1,43 +1,61 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { ListGroup, Container, Card, Col, Row } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import { Row, Col, Card, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+import { FaRegHandPointLeft } from "react-icons/fa";
+
 const Balcao = () => {
+  
   return (
     <>
-      <br />
-
-      <Container>
-        <Row>
-          <Col md={{ span: 4, offset: 0 }}>
-            <Card style={{ width: "18rem" }}>
-              <ListGroup action variant="Primary">
-                <Link to="/balcao/detalhes">
-                  <ListGroup.Item>Balcão</ListGroup.Item>
-                </Link>
-              </ListGroup>
-              <ListGroup variant="flush">
-                <Link className="btn-primary" to="/">
-                  <ListGroup.Item>Tempo de espera 30min</ListGroup.Item>
-                </Link>
-                <ListGroup.Item action href="">
-                  Atendimento mais de 30min
-                </ListGroup.Item>
-                <ListGroup.Item action href="">
-                  Senhas prioritárias acima de 30min
-                </ListGroup.Item>
-                <ListGroup.Item action href="">
-                  Disponibilidade do Servidor
-                </ListGroup.Item>
-                <ListGroup.Item action href="">
-                  Aguadando atendimento
-                </ListGroup.Item>
-              </ListGroup>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
+      <br />      
+        <>
+          <Row>
+            <Col md={5}>
+              <Card border="danger">
+                <Card.Header className="bg-danger text-white">
+                  Dados Pessoais
+                </Card.Header>
+                <Card.Body>
+                  <div>
+                   
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={5}>
+              <Card border="danger">
+                <Card.Header className="bg-danger text-white">
+                  Ocupações
+                </Card.Header>
+                <Card.Body>
+                  <div>
+                    <Table striped bordered hover>
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Nome</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        
+                          <tr >
+                            <td></td>
+                            <td>ocupacao</td>
+                          </tr>
+                        
+                      </tbody>
+                    </Table>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+          <Link to="/personagens" className="btn btn-primary mt-3">
+            <FaRegHandPointLeft /> Voltar
+          </Link>
+        </>
+      
     </>
   );
 };

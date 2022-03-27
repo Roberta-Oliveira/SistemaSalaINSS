@@ -2,7 +2,7 @@ import React from "react";
 import { ListGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const ServicoSocialDetalhes = () => {
+const SistemaslDetalhes = () => {
   return (
     <>
       <br />
@@ -78,4 +78,4 @@ const ServicoSocialDetalhes = () => {
   );
 };
 
-export default ServicoSocialDetalhes;
+export default SistemaslDetalhes;
