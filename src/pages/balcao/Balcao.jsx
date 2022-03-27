@@ -23,7 +23,7 @@ const Balcao = () => {
                         <td>
                           <Link to="/balcao/detalhes">
                             <RiFileEditLine title="Editar" />
-                          </Link>{" "}
+                          </Link>
                         </td>
                         <td>Tempo de espera 30min</td>
                         <td>23-03-2022</td>
@@ -46,9 +46,12 @@ const Balcao = () => {
                       </tr>
 
                       <tr>
-                        <Link to="/balcao/detalhes">
-                          <td>Senhas prioritárias acima de 30min</td>
-                        </Link>
+                        <td>
+                          <Link to="/balcao/detalhes">
+                            <RiFileEditLine title="Editar" />
+                          </Link>
+                        </td>
+                        <td>Senhas prioritárias acima de 30min</td>
                         <td>23-03-2022</td>
                         <td>
                           <FcHighPriority /> Desastre
@@ -56,9 +59,12 @@ const Balcao = () => {
                       </tr>
 
                       <tr>
-                        <Link to="/balcao/detalhes">
-                          <td>Disponibilidade do Servidor</td>
-                        </Link>
+                        <td>
+                          <Link to="/balcao/detalhes">
+                            <RiFileEditLine title="Editar" />
+                          </Link>
+                        </td>
+                        <td>Disponibilidade do Servidor</td>
                         <td>23-03-2022</td>
                         <td>
                           <FcLowPriority /> Desastre
@@ -66,9 +72,13 @@ const Balcao = () => {
                       </tr>
 
                       <tr>
-                        <Link to="/balcao/detalhes">
-                          <td>Aguadando atendimento</td>
-                        </Link>
+                        <td>
+                          <Link to="/balcao/detalhes">
+                            <RiFileEditLine title="Editar" />
+                          </Link>
+                        </td>
+                        <td>Aguadando atendimento</td>
+
                         <td>23-03-2022</td>
                         <td>
                           <FcHighPriority /> Desastre
