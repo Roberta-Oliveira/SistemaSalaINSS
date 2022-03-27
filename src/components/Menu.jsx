@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Navbar } from "react-bootstrap";
+import logo from "./lg.png";
 
 const Menu = () => {
   return (
@@ -8,14 +9,7 @@ const Menu = () => {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">
-            <img
-              alt=""
-              src="https://static.vecteezy.com/system/resources/previews/000/616/253/original/home-logo-and-symbols-vector.jpg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{" "}
-            SALA
+            <img src={logo} width="80" height="50" alt="" /> SALA
           </Navbar.Brand>
         </Container>
       </Navbar>
