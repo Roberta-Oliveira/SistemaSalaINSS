@@ -9,6 +9,7 @@ import {
   FcParallelTasks
 } from "react-icons/fc";
 import { RiFileEditLine } from "react-icons/ri";
+import "./Inicio.css";
 
 const Inicio = () => {
   return (
@@ -22,7 +23,7 @@ const Inicio = () => {
                 Balcão
               </Card.Header>
               <Card.Body>
-                <div>
+                <div class="table-overflow">
                   <Table striped bordered hover size="sm">
                     <tbody>
                       <tr>

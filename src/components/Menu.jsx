@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "./lg.png";
+import logo from "./ps.png";
 
 const Menu = () => {
   return (
