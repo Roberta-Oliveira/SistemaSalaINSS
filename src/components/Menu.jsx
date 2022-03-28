@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "./lg.png";
 
 const Menu = () => {
@@ -8,8 +8,12 @@ const Menu = () => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">
-            <img src={logo} width="80" height="50" alt="" /> SALA
+          <Navbar.Brand>
+            <Nav className="me-auto">
+              <Nav.Link className="text-white " href="/">
+                <img src={logo} width="100" height="60" alt="" /> SALA
+              </Nav.Link>
+            </Nav>
           </Navbar.Brand>
         </Container>
       </Navbar>

@@ -1,4 +1,4 @@
-import React from "react";
+/**import React from "react";
 import { Row, Col, Card, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FcHighPriority, FcLowPriority } from "react-icons/fc";
@@ -522,3 +522,4 @@ const Balcao = () => {
 };
 
 export default Balcao;
+*/

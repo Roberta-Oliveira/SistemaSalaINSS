@@ -8,37 +8,37 @@ const ProdutividadeDetalhes = () => {
       <br />
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Tarefas em atraso na unidade</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Tarefas liberadas para análise</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Tarefas pendentes na unidade</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Estoque na unidade</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Estoque com servidores da unidade</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Percentual de absorção da unidade entrada x saída
           </ListGroup.Item>
@@ -46,7 +46,7 @@ const ProdutividadeDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Detalhamento dos servidores designados
           </ListGroup.Item>
@@ -54,7 +54,7 @@ const ProdutividadeDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Quantidade de tarefas criadas na unidade (Agência de relacionamento)
           </ListGroup.Item>
@@ -62,7 +62,7 @@ const ProdutividadeDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Quantidade de tarefas concluidas por servidores lotados na unidade{" "}
           </ListGroup.Item>
@@ -70,7 +70,7 @@ const ProdutividadeDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Quantidade de tarefas concluidas por servidores lotados na unidade -
             BMOB
@@ -79,7 +79,7 @@ const ProdutividadeDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Saldo (Criadas - Total concluidas)Acumulados no Mês{" "}
           </ListGroup.Item>
@@ -87,10 +87,11 @@ const ProdutividadeDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Detalhamentos E-Tarefas</ListGroup.Item>
         </Link>
       </ListGroup>
+      <br />
     </>
   );
 };

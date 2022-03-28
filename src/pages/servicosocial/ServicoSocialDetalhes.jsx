@@ -8,7 +8,7 @@ const ServicoSocialDetalhes = () => {
       <br />
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Quantidades de atendimentos presencias e a distância
           </ListGroup.Item>
@@ -16,13 +16,13 @@ const ServicoSocialDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Relação de Insucessos</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Relação dos agendamentos superiores a 90 dias
           </ListGroup.Item>
@@ -30,25 +30,25 @@ const ServicoSocialDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Relação dos agendamentos do dia</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>TMEA</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>TMA</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Quantidade de atendiementos por servidor
           </ListGroup.Item>
@@ -56,13 +56,13 @@ const ServicoSocialDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Média de atendiemento por servidores</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Quantidade de atendimentos agendados e não agendados
           </ListGroup.Item>
@@ -70,7 +70,7 @@ const ServicoSocialDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Percentual de comparecimento</ListGroup.Item>
         </Link>
       </ListGroup>

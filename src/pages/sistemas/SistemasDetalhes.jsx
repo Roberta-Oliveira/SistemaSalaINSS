@@ -8,70 +8,47 @@ const SistemaslDetalhes = () => {
       <br />
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidades de atendimentos presencias e a distância
+            Falha na Sincronização do SAT (Hora da última sincronização com
+            sucesso)
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>Relação de Insucessos</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
-            Relação dos agendamentos superiores a 90 dias
+            Falha no assíncrono (arquivos que não migram)
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>Relação dos agendamentos do dia</ListGroup.Item>
+        <Link className="text-white" to="/">
+          <ListGroup.Item>Circuito</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>TMEA</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>TMA</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidade de atendiementos por servidor
+            Link para monitoramento de sistermas e Links Fornecidos pela DTI
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>Média de atendiemento por servidores</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidade de atendimentos agendados e não agendados
+            Suporte INSS abertos e não encerrados (Tempo em aberto)
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>Percentual de comparecimento</ListGroup.Item>
+        <Link className="text-white" to="/">
+          <ListGroup.Item>SDM abertos</ListGroup.Item>
         </Link>
       </ListGroup>
     </>

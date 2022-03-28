@@ -8,70 +8,82 @@ const PMFDetalhes = () => {
       <br />
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidades de atendimentos presencias e a distância
+            Relação de agendamentos, por serviço, e por profissional (agenda do
+            dia) - Agenda do PMF Gestão
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>Relação de Insucessos</ListGroup.Item>
+        <Link className="text-white" to="/">
+          <ListGroup.Item>Aguardando Atendimento</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
-            Relação dos agendamentos superiores a 90 dias
+            Estoque de agendamentospor unidade - BG Agenda PMF
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>Relação dos agendamentos do dia</ListGroup.Item>
+        <Link className="text-white" to="/painelpmf">
+          <ListGroup.Item>Link para o Painel PMF</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>TMEA</ListGroup.Item>
+        <Link className="text-white" to="/">
+          <ListGroup.Item>TMEA - BG Agenda PMF</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>TMA</ListGroup.Item>
+        <Link className="text-white" to="/">
+          <ListGroup.Item>TMAA PMF - BG Agenda PMF</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
+          <ListGroup.Item>TME (Espera)</ListGroup.Item>
+        </Link>
+      </ListGroup>
+
+      <ListGroup variant="flush">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidade de atendiementos por servidor
+            Quantidade de tarefas de pós perícia pendentes - GET
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>Média de atendiemento por servidores</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidade de atendimentos agendados e não agendados
+            Tarefas puxadas no mês - PMF Tarefas (Só existe em nível nacional)
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>Percentual de comparecimento</ListGroup.Item>
+        <Link className="text-white" to="/">
+          <ListGroup.Item>
+            Saldo (puxadas - total concluidas) Acumulado no mês
+          </ListGroup.Item>
+        </Link>
+      </ListGroup>
+
+      <ListGroup variant="flush">
+        <Link className="text-white" to="/">
+          <ListGroup.Item>
+            Quantidadede peritos em atendimento presencial na unidade - BG
+            Gestão
+          </ListGroup.Item>
         </Link>
       </ListGroup>
     </>

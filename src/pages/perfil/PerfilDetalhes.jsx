@@ -8,13 +8,13 @@ const PerfilDetalhes = () => {
       <br />
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Notas do atendimento da APS</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>
             Servidores/Listas por programas/Designados
           </ListGroup.Item>
@@ -22,56 +22,56 @@ const PerfilDetalhes = () => {
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Ouvidoria</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Ouvidoria a mais de 30 dias</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Abrangência</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Manutenção</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Imagens na Unidade</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Unidade com e sem perícia</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Feriados</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
+        <Link className="text-white" to="/">
           <ListGroup.Item>Capacidade de atendimento</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
-        <Link to="/">
-          <ListGroup.Item>
+        <Link className="text-success" to="/">
+          <ListGroup.Item className="bg-success text-white">
             Atendimento interrompido/Prejudicado/Motivo - Campo informado pelo
             gerente da APS. Listas de motivos: enchente, incêndio, invasão,
             arrombamento, roubo de equipamentos, reforma, greve, falta de
@@ -80,6 +80,7 @@ const PerfilDetalhes = () => {
           </ListGroup.Item>
         </Link>
       </ListGroup>
+      <br />
     </>
   );
 };
