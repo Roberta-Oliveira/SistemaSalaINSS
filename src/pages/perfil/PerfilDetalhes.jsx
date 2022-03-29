@@ -7,6 +7,10 @@ const PerfilDetalhes = () => {
     <>
       <br />
 
+      <h2>Perfil Detalhes</h2>
+
+      <br />
+
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>Notas do atendimento da APS</ListGroup.Item>

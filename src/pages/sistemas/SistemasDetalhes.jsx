@@ -7,6 +7,10 @@ const SistemaslDetalhes = () => {
     <>
       <br />
 
+      <h2>Sistemas Detalhes</h2>
+
+      <br />
+
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>

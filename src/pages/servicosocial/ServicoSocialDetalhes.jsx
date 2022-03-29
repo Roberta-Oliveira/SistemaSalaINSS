@@ -7,6 +7,10 @@ const ServicoSocialDetalhes = () => {
     <>
       <br />
 
+      <h2>Serviço Social Detalhes</h2>
+
+      <br />
+
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>

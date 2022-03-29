@@ -7,6 +7,10 @@ const PMFDetalhes = () => {
     <>
       <br />
 
+      <h2>PMF Detalhes</h2>
+
+      <br />
+
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>
@@ -25,7 +29,7 @@ const PMFDetalhes = () => {
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>
-            Estoque de agendamentospor unidade - BG Agenda PMF
+            Estoque de agendamentos por unidade - BG Agenda PMF
           </ListGroup.Item>
         </Link>
       </ListGroup>
@@ -86,6 +90,7 @@ const PMFDetalhes = () => {
           </ListGroup.Item>
         </Link>
       </ListGroup>
+      <br />
     </>
   );
 };

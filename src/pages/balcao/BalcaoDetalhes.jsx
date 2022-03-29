@@ -8,6 +8,10 @@ const BalcaoDetalhes = () => {
     <>
       <br />
 
+      <h2>Balcão Detalhes</h2>
+
+      <br />
+
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>Senhas a mais de 30min</ListGroup.Item>
@@ -29,14 +33,6 @@ const BalcaoDetalhes = () => {
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>Percentual de comparecimento</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link className="text-white" to="/">
-          <ListGroup.Item>
-            Quantidades de atendimentos agendados e não agendados
-          </ListGroup.Item>
         </Link>
       </ListGroup>
 

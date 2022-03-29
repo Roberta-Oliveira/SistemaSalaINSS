@@ -74,7 +74,7 @@ const Inicio = () => {
                         <td>Disponibilidade do Servidor</td>
                         <td>23-03-2022</td>
                         <td className="text-success">
-                          <FcParallelTasks /> Resolvido
+                          <FcParallelTasks /> 10
                         </td>
                       </tr>
 
@@ -512,6 +512,18 @@ const Inicio = () => {
             </Card>
           </Col>
         </Row>
+        <br />
+
+        <div className="footer-copyright center">
+          <div class="col s12 centralize">
+            <p>
+              <small class="text-muted white-text">
+                ©2022 Copyright, todos os direitos reservados
+              </small>
+            </p>
+          </div>
+        </div>
+
         <br />
       </>
     </>

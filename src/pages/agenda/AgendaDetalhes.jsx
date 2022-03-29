@@ -7,34 +7,15 @@ const AgendaDetalhes = () => {
     <>
       <br />
 
-      <ListGroup variant="flush">
-        <Link className="text-white" to="/">
-          <ListGroup.Item>Senhas a mais de 30min</ListGroup.Item>
-        </Link>
-      </ListGroup>
+      <h2>Agendamento Detalhes</h2>
 
-      <ListGroup variant="flush">
-        <Link className="text-white" to="/">
-          <ListGroup.Item>Resumo do comparecimento</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link className="text-white" to="/">
-          <ListGroup.Item>Relação de agendamentos</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link className="text-white" to="/">
-          <ListGroup.Item>Percentual de comparecimento</ListGroup.Item>
-        </Link>
-      </ListGroup>
+      <br />
 
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidades de atendimentos agendados e não agendados
+            Lista de serviços sem servidores cadastrados para atendimento
+            agendado
           </ListGroup.Item>
         </Link>
       </ListGroup>
@@ -42,54 +23,86 @@ const AgendaDetalhes = () => {
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidades de atendimentos agendados e não agendados
+            Lista de quantidade de inducessos por serviço
           </ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link className="text-white" to="/">
-          <ListGroup.Item>TMA</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link className="text-white" to="/">
-          <ListGroup.Item>TME</ListGroup.Item>
-        </Link>
-      </ListGroup>
-
-      <ListGroup variant="flush">
-        <Link className="text-white" to="/">
-          <ListGroup.Item>Em atendimento 30min</ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
           <ListGroup.Item>
-            Quantidade de atendimentos por servidor e (POP-UP) a lista
+            Lista de quantidade de inducessos por serviço cadastrado para
+            atendiemento agendado
           </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
-          <ListGroup.Item>Média de atendiemento dos servidores</ListGroup.Item>
+          <ListGroup.Item>
+            Quantidade de servidores ideal para o atendimento agendado
+          </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
-          <ListGroup.Item>Insucesso detalhamento por serviço</ListGroup.Item>
+          <ListGroup.Item>
+            Lista de serviços não disponíveis na unidade
+          </ListGroup.Item>
         </Link>
       </ListGroup>
 
       <ListGroup variant="flush">
         <Link className="text-white" to="/">
-          <ListGroup.Item>Aguardando atendimento</ListGroup.Item>
+          <ListGroup.Item>
+            Lista de serviços atendidos na unidade
+          </ListGroup.Item>
         </Link>
       </ListGroup>
+
+      <ListGroup variant="flush">
+        <Link className="text-white" to="/">
+          <ListGroup.Item>
+            Lista de quantidade de inducessos por serviço - serviço social
+          </ListGroup.Item>
+        </Link>
+      </ListGroup>
+
+      <ListGroup variant="flush">
+        <Link className="text-white" to="/">
+          <ListGroup.Item>
+            Lista de quantidade de inducessos por servidor cadastrado para
+            atendiemnto agendado
+          </ListGroup.Item>
+        </Link>
+      </ListGroup>
+
+      <ListGroup variant="flush">
+        <Link className="text-white" to="/">
+          <ListGroup.Item>
+            Quantidade de servidores ideal para o atendimento agendado - serviço
+            social
+          </ListGroup.Item>
+        </Link>
+      </ListGroup>
+
+      <ListGroup variant="flush">
+        <Link className="text-white" to="/">
+          <ListGroup.Item>
+            Lista de serviços não disponíveis na unidade - serviço social
+          </ListGroup.Item>
+        </Link>
+      </ListGroup>
+
+      <ListGroup variant="flush">
+        <Link className="text-white" to="/">
+          <ListGroup.Item>
+            Lista de serviços atendidos na unidade - serviço social
+          </ListGroup.Item>
+        </Link>
+      </ListGroup>
+      <br />
     </>
   );
 };
